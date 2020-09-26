@@ -8,6 +8,6 @@ Node JS, JavaScript
 
 ## Demo and Output
 
-Video of the demo: https://drive.google.com/file/d/1Layis8FmdOFwSE2pJogNL4ktqGSHfYtU/view - automatic!
+Video of the demo: https://drive.google.com/file/d/1Layis8FmdOFwSE2pJogNL4ktqGSHfYtU/view 
 
 ![Output:](https://github.com/plrobbins/EmployeeSummary/blob/master/Images/EmployeeSummaryScreenshot.png)
