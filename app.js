@@ -17,7 +17,7 @@ function employeeType() {
     inquirer.prompt([
         {
             type: "list",
-            message: "What type of team member would you like to add? (Use arrow keys",
+            message: "What type of team member would you like to add? (Use arrow keys)",
             name: "name",
             choices: ["Manager", "Engineer", "Intern", "None"],
         },
@@ -29,7 +29,7 @@ function employeeType() {
         } else if (val.name === "Intern") {
             internInfo();
         } else if (val.name === "None") {
-            generateHTML(outPath, render(team));
+            generateHTML(outputPath, render(team));
         };
     });
 };
@@ -128,14 +128,14 @@ function internInfo() {
 };
 
 //write to a README file
-// function generateHTML(fileName, data) {
-//     fs.writeFile(fileName, data, "utf8", function (err) {
-//         if (err) {
-//             throw err;
-//         }
-//         console.log("You have successfully saved your Employee Summary");
-//     });
-// };
+function generateHTML(fileName, data) {
+    fs.writeFile(fileName, data, "utf8", function (err) {
+        if (err) {
+            throw err;
+        }
+        console.log("You have successfully saved your Employee Summary");
+    });
+};
 
 //Function to begin the prompts
 managerInfo();
