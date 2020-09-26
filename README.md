@@ -10,4 +10,4 @@ Node JS, JavaScript
 
 ![Video of the demo:](https://drive.google.com/file/d/1Layis8FmdOFwSE2pJogNL4ktqGSHfYtU/view) 
 
-![Output:]()
+![Output:](https://github.com/plrobbins/EmployeeSummary/blob/master/Images/EmployeeSummaryScreenshot.png)
