@@ -8,7 +8,7 @@ const fs = require("fs");
 const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
-const render = require("./lib/htmlRenderer");
+// const render = require("./lib/htmlRenderer");
 
 const team = [];
 
@@ -128,14 +128,14 @@ function internInfo() {
 };
 
 //write to a README file
-function generateHTML(fileName, data) {
-    fs.writeFile(fileName, data, "utf8", function (err) {
-        if (err) {
-            throw err;
-        }
-        console.log("You have successfully saved your Employee Summary");
-    });
-};
+// function generateHTML(fileName, data) {
+//     fs.writeFile(fileName, data, "utf8", function (err) {
+//         if (err) {
+//             throw err;
+//         }
+//         console.log("You have successfully saved your Employee Summary");
+//     });
+// };
 
 //Function to begin the prompts
 managerInfo();
